@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\DontDestroy.cs" />
+     <Compile Include="Assets\Scripts\HealthPoints.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
