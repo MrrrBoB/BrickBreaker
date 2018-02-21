@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour {
 
 
 	public static GameManager instance = null;
+	public static int brickCount=0;
 
 	void Awake ()//singleton
 	{
@@ -25,8 +26,13 @@ public class GameManager : MonoBehaviour {
 	public void LoadLevel(string Level)
 	{
 		SceneManager.LoadScene (Level);
+		brickCount = 0;
 	}
 
+	public void LoadNextLevel(){
+		SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex+1);
+		brickCount = 0;
+	}
 
 
 }
