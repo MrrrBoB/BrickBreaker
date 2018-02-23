@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HealthPoints : MonoBehaviour {
+public class Bricks : MonoBehaviour {
 	public int health; 
 
 	private void Awake() {
