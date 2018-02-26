@@ -187,6 +187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78ba9b1af40b73742b72c8cc68629d64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  begin: {x: 0, y: 0}
   Hit: {fileID: 8300000, guid: e0bfee93ae1e12e4c80ebc571efa5833, type: 3}
 --- !u!1001 &171586481
 Prefab:
@@ -330,11 +331,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4574479919258558, guid: e37cb351b81451c48bdc55c3f95cd306, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.03
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4574479919258558, guid: e37cb351b81451c48bdc55c3f95cd306, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 5.72
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 4574479919258558, guid: e37cb351b81451c48bdc55c3f95cd306, type: 2}
       propertyPath: m_LocalPosition.z
@@ -363,7 +364,7 @@ Prefab:
     - target: {fileID: 50447649116326300, guid: e37cb351b81451c48bdc55c3f95cd306,
         type: 2}
       propertyPath: m_GravityScale
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 50447649116326300, guid: e37cb351b81451c48bdc55c3f95cd306,
         type: 2}
@@ -381,6 +382,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114160984159244458, guid: 34563b906fefeb348bb56155af4676eb,
+        type: 2}
+      propertyPath: brickStates.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4484143070050948, guid: 34563b906fefeb348bb56155af4676eb, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0

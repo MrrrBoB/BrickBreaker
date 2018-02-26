@@ -79,6 +79,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
+  brickStates:
+  - {fileID: 21300002, guid: bd08a1c41e8e791459dd71675b42d116, type: 3}
 --- !u!212 &212183677944818114
 SpriteRenderer:
   m_ObjectHideFlags: 1
