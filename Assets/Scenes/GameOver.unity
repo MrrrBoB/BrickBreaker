@@ -392,12 +392,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30639a3d9bf030a47b66f93ce238ba0a, type: 2}
   m_IsPrefabParent: 0
---- !u!114 &714079576 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114809812694608698, guid: a8246a32cdefc9f4c8fd68c2e6be080f,
-    type: 2}
-  m_PrefabInternal: {fileID: 1399447745}
-  m_Script: {fileID: 11500000, guid: 461a0b364005ec54e94d74c453129df1, type: 3}
 --- !u!1 &810822612
 GameObject:
   m_ObjectHideFlags: 0
@@ -548,8 +542,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 714079576}
-        m_MethodName: 
+      - m_Target: {fileID: 114809812694608698, guid: a8246a32cdefc9f4c8fd68c2e6be080f,
+          type: 2}
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

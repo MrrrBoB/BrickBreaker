@@ -33,6 +33,9 @@ public class GameManager : MonoBehaviour {
 		SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex+1);
 		brickCount = 0;
 	}
-
+	public void QuitGame(){
+		Debug.Log ("Quit Game");
+		Application.Quit (); 
+	}
 
 }
