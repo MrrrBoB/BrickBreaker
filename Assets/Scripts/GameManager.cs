@@ -22,14 +22,22 @@ public class GameManager : MonoBehaviour {
 
 	}
 
-
+	public void CCursor ()
+	{
+		if (SceneManager.GetActiveScene ().buildIndex == 2 || SceneManager.GetActiveScene ().buildIndex == 3 || SceneManager.GetActiveScene ().buildIndex == 4)
+			Cursor.visible = false;
+		else
+			Cursor.visible = true;
+	}
 	public void LoadLevel(string Level)
 	{
+		
 		SceneManager.LoadScene (Level);
 		brickCount = 0;
 	}
 
 	public void LoadNextLevel(){
+		
 		SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex+1);
 		brickCount = 0;
 	}
